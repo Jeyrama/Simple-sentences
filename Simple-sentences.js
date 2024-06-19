@@ -14,3 +14,6 @@ Sentence making rules:
 Example:
   makeSentence(['hello', ',', 'my', 'dear']) // returns 'hello, my dear.'
 */
+
+
+// solution
