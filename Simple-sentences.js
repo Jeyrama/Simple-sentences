@@ -16,4 +16,10 @@ Example:
 */
 
 
-// solution
+// Solution
+
+function makeSentence(parts) {
+  return parts.reduce(function(a,b){
+    return b === ","? a + b : b === "."? a + "" : a + " " + b;
+  }) + ".";
+}
