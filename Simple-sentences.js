@@ -25,3 +25,7 @@ function makeSentence(parts) {
 }
 
 // or
+
+function makeSentence(parts) {
+	return (parts.join(' ') + '.').replace(/ \./g, '.').replace(/ ,/g, ',').replace(/\.+$/, '.');
+}
